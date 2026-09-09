@@ -1,0 +1,6 @@
+{
+  "name": "The Josie Hair Salon",
+  "description": "Cedar Rapids' premier salon experience offering cut, color, balayage, and styling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
