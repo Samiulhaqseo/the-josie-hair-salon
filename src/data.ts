@@ -34,10 +34,24 @@ export const STYLISTS_LIST: Stylist[] = [
     bio: "Josie is the visionary owner and lead master artist of The Josie Hair Salon in Cedar Rapids. Renowned for her tailored balayage artistry, color correction, and precision styling, she delivers a boutique salon experience that radiates warmth, craft, and creative energy.",
     specialties: ['Balayage', 'Color Correction', 'Precision Cutting', 'Blonde Artistry'],
     instagram: 'https://www.facebook.com/Josie.industry',
-    image: '/our-story-lady.jpg',
+    image: 'https://www.facebook.com/photo.php?fbid=122204643626386712&set=pb.61561601371843.-2207520000&type=3',
   },
-  { id: 'stephanie-arias', name: 'Stephanie Arias', role: 'Stylist', specialties: ['Dimensional Color', 'Blowouts', 'Layered Cuts'] },
-  { id: 'kenny-slack', name: 'Kenny Slack', role: 'Senior Stylist/Wella Educator', specialties: ['Master Colorist', 'Editorial Styling', 'Education'] },
+  {
+    id: 'stephanie-arias',
+    name: 'Stephanie Arias',
+    role: 'Stylist',
+    bio: "Stephanie brings high-fashion dimensional color, lived-in blonding, and effortless custom blowouts to every appointment. Her passion is crafting low-maintenance, luminous hair that complements each client's lifestyle.",
+    specialties: ['Dimensional Color', 'Blowouts', 'Layered Cuts', 'Lived-In Blonding'],
+    image: 'https://scontent-iad6-1.xx.fbcdn.net/v/t51.82787-15/516084227_17898848796239551_8520137885750156213_n.jpg?stp=dst-jpg_tt6&cstp=mx1179x1473&ctp=s1179x1473&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeH57eWU_5CyVhqWn_3mhyqLWxWSucYTFP5bFZK5xhMU_jHPmaxMk1VztI2Oytpi41pNu5t9wt_2QmoGPXyCXsXk&_nc_ohc=3UJ5RnZ-sJgQ7kNvwEKCsW3&_nc_oc=AdruqDQf2Nt1E3_MrW_VebVGn2j9aEpWGseQx3bX86TLTQxgibxqxg52vomS0fS0hIA&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=CUP3sAVp5X1A8DUD-e3CaQ&_nc_ss=792a8&oh=00_AQKZhD-b_ozEpJOL0ar2Ci4WGUjs6Sa1ZmZf0WzbhrzmgQ&oe=6AA7DECE',
+  },
+  {
+    id: 'kenny-slack',
+    name: 'Kenny Slack',
+    role: 'Senior Stylist/Wella Educator',
+    bio: "As an accomplished Senior Stylist and certified Wella Educator, Kenny is a master of corrective color, editorial styling, and precision technique. He mentors emerging stylists while delivering runway-caliber transformations.",
+    specialties: ['Master Colorist', 'Editorial Styling', 'Wella Education', 'Corrective Color'],
+    image: 'https://scontent-iad3-1.xx.fbcdn.net/v/t51.82787-15/515413865_17898848781239551_4190265341820306111_n.jpg?stp=dst-jpg_tt6&cstp=mx1179x1473&ctp=s1179x1473&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG9kOIt9Qgy7ZW_49sjvQykFRZHKQ5wv9AVFkcpDnC_0BNK4fBInp3NhtcgViNWvu0AKzZw8GoZmYwjD7MyszaO&_nc_ohc=Ez2O7P5wRbAQ7kNvwHBuRLl&_nc_oc=Adrcm5771u4tTLC_HMHmUZYoPu9KC6sK5yODi8HwTVPyqPQhWMmP4dMKVfp6-y-VMcc&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=BO96d5W07Jbcxr9sfQcTiQ&_nc_ss=792a8&oh=00_AQL-lIK3LoH98jctpxf83ZP7y88k0BhXCYZdrZ39v_MoZQ&oe=6AA7EC6E',
+  },
 ];
 
 export const STYLISTS = STYLISTS_LIST;

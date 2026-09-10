@@ -59,6 +59,16 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate, onOpenBookingWit
               <div className="w-full lg:w-5/12 aspect-[4/5] sm:aspect-[3/4] relative overflow-hidden bg-[#ebe6dc] border border-[#e5ded2]">
                 <img
                   src={stylist.image}
+                  onError={(e) => {
+                    const target = e.currentTarget as HTMLImageElement;
+                    if (stylist.id === 'stephanie-arias') {
+                      target.src = '/team-stephanie.jpg';
+                    } else if (stylist.id === 'kenny-slack') {
+                      target.src = '/team-kenny.jpg';
+                    } else {
+                      target.src = '/team-josie.jpg';
+                    }
+                  }}
                   alt={stylist.name}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-top hover:scale-105 transition-transform duration-700"

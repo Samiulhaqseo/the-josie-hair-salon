@@ -85,8 +85,11 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
 
           <div className="lg:col-span-6 aspect-[4/5] overflow-hidden bg-[#ebe6dc] border border-[#e2dcd0] shadow-sm relative">
             <img
-              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=1000&q=85"
-              alt="The Josie Hair Salon interior"
+              src="https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/673438053_122198811014386712_588884175228751790_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1320x1320&ctp=s1320x1320&_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeESjZEutvPpCh6HW6kWhktt0t4wT94uSWrS3jBP3i5JamdaP8HYwuQZujVt3A5W9ApLk-PhwxIzcJBBPJ-Bmy31&_nc_ohc=yRoupB3kmmcQ7kNvwFhSsUA&_nc_oc=Adr-rb6w090raIc4INS_r_kW5x7caJ6hhwRPB52_E_9V8UgA4e62RHrS-5K5Irpe4mE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=peVZ7iyvHuuI0FmFqDdZnw&_nc_ss=792a8&oh=00_AQIVrE_6ayRePpb_Gh3T1w4qY4xaagO9J1zEouAaXEan3A&oe=6AA7C503"
+              onError={(e) => {
+                (e.currentTarget as HTMLImageElement).src = '/team-josie.jpg';
+              }}
+              alt="Josie Davis, Founder & Master Stylist"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
             />

@@ -60,6 +60,9 @@ export const Team: React.FC<TeamProps> = ({ onOpenBookingWithStylist }) => {
               <div className="relative aspect-[3/4] overflow-hidden bg-[#ded8cb]">
                 <img
                   src={leadStylist.image}
+                  onError={(e) => {
+                    (e.currentTarget as HTMLImageElement).src = '/team-josie.jpg';
+                  }}
                   alt={`${leadStylist.name}, ${leadStylist.role}`}
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover object-center"

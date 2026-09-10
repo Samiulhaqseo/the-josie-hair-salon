@@ -30,21 +30,21 @@ export const OurStory: React.FC = () => {
             </p>
           </div>
 
-          {/* Right Column: Lady Stylist Photograph */}
+          {/* Right Column: Josie Stylist Photograph */}
           <div className="relative order-1 md:order-2">
             <div
               id="our-story-image-container"
               className="relative overflow-hidden bg-[#e5dfd3] shadow-lg border border-[#ece8de] aspect-square max-w-md mx-auto"
             >
               <img
-                src="/our-story-lady.jpg"
+                id="our-story-josie-image"
+                src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/723240801_122204643632386712_4359750185395679601_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s206x206&_nc_cat=105&ccb=1-7&_nc_sid=7a06f5&_nc_eui2=AeFiAtOeyMGZ9lcC7avEBsZ-tyhnn_Jwq823KGef8nCrzXlcGd2f6fsc1no0LW0hXejL1U-j6ofJ6CBodVZ6i7ux&_nc_ohc=n7GxNxFt72MQ7kNvwHR3ypV&_nc_oc=AdpDpixO5ZVRpkXxlQb8jGOkDN9AmqIiqUh94WEi1zuqDiPRRTZyR7W97yZpqxaT_nE&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=eDH5a1oyjp3nSUjouLsuwg&_nc_ss=792a8&oh=00_AQKrvjudWL4m2P_DZL8dbndC8YVS6MQBBi5vckbaJFovaA&oe=6AA7F868"
                 onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src =
-                    'https://www.thelindseysalon.com/wp-content/uploads/2023/01/claire.jpg';
+                  (e.currentTarget as HTMLImageElement).src = '/team-josie.jpg';
                 }}
                 alt="Josie Davis, Owner of The Josie Hair Salon"
                 referrerPolicy="no-referrer"
-                className="w-full h-full object-cover object-center transition-transform duration-700 hover:scale-105"
+                className="w-full h-full object-cover object-[center_18%] transition-transform duration-700 hover:scale-105"
               />
               <div className="absolute inset-0 ring-1 ring-inset ring-black/10 pointer-events-none" />
             </div>
