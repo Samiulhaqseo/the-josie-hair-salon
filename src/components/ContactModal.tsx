@@ -48,7 +48,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
             </div>
             <h3 className="font-serif text-2xl uppercase tracking-[0.2em]">MESSAGE SENT</h3>
             <p className="text-xs sm:text-sm text-[#666666] max-w-sm mx-auto">
-              Thank you for contacting The Josie Hair Salon. Our front desk concierge will be in touch
+              Thank you for contacting Laci | CR Iowa Hairstylist. Our front desk concierge will be in touch
               with you shortly.
             </p>
             <button
@@ -80,7 +80,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
               <div className="flex items-center space-x-2.5">
                 <MapPin className="w-4 h-4 text-[#c5a059] shrink-0" />
                 <span>
-                  {SALON_INFO.address.street}, {SALON_INFO.address.cityStateZip}
+                  {SALON_INFO.address.cityStateZip}
                 </span>
               </div>
               <div className="flex items-center space-x-2.5">
@@ -138,7 +138,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
                     type="tel"
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="+57 319 4126217"
+                    placeholder="+00 123 40000"
                     className="w-full bg-white border border-[#d8d2c4] px-3 py-2 focus:border-[#c5a059] focus:outline-none text-[#222222]"
                   />
                 </div>

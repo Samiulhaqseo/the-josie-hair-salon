@@ -1,19 +1,20 @@
 import { Stylist, ServiceItem, Testimonial, BlogPost, FaqItem, InstagramReel } from './types';
 
 export const SALON_INFO = {
-  name: 'The Josie Hair Salon',
-  phone: '+57 319 4126217',
-  phoneFormatted: '+57 319 4126217',
-  phoneRaw: 'tel:+573194126217',
-  email: 'davis.josie@myyahoo.com',
+  name: 'Laci | CR Iowa Hairstylist',
+  phone: '+00 123 40000',
+  phoneFormatted: '+00 123 40000',
+  phoneRaw: 'tel:+0012340000',
+  email: 'booknow@gmail.com',
   address: {
-    street: '1100 3rd St SE',
-    suite: '100',
+    street: '',
+    suite: '',
     city: 'Cedar Rapids',
     state: 'IA',
     zip: '52401',
     cityStateZip: 'Cedar Rapids, IA 52401',
-    mapsUrl: 'https://maps.google.com/?q=Cedar+Rapids+IA',
+    full: 'Cedar Rapids, IA 52401',
+    mapsUrl: 'https://maps.google.com/?q=Cedar+Rapids+IA+52401',
   },
   hours: [
     { days: 'Monday', time: 'Closed' },
@@ -22,19 +23,19 @@ export const SALON_INFO = {
   ],
   socials: {
     instagram: 'https://instagram.com',
-    facebook: 'https://www.facebook.com/Josie.industry',
+    facebook: 'https://www.facebook.com/',
   },
 };
 
 export const STYLISTS_LIST: Stylist[] = [
   {
-    id: 'josie-davis',
-    name: 'Josie Davis',
+    id: 'laci',
+    name: 'Laci',
     role: 'Owner / Master Stylist',
-    bio: "Josie is the visionary owner and lead master artist of The Josie Hair Salon in Cedar Rapids. Renowned for her tailored balayage artistry, color correction, and precision styling, she delivers a boutique salon experience that radiates warmth, craft, and creative energy.",
+    bio: "Laci is the visionary owner and lead master artist of Laci | CR Iowa Hairstylist in Cedar Rapids. Renowned for her tailored balayage artistry, color correction, and precision styling, she delivers a boutique salon experience that radiates warmth, craft, and creative energy.",
     specialties: ['Balayage', 'Color Correction', 'Precision Cutting', 'Blonde Artistry'],
-    instagram: 'https://www.facebook.com/Josie.industry',
-    image: 'https://www.facebook.com/photo.php?fbid=122204643626386712&set=pb.61561601371843.-2207520000&type=3',
+    instagram: 'https://www.facebook.com/',
+    image: 'https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/763831721_3804590603025302_9090068041945421282_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFKyH9Lv7_HemWvJVMp8Bk8pho1GvK2xa-mGjUa8rbFrxhuPdRlPGQZ_GfSrXmfBEVIkYaPnv-Y1Nwqs_O421qX&_nc_ohc=hUmNf2mZoZMQ7kNvwE0Kr3h&_nc_oc=Adrr2hYDOx92ONpkYPBrblrFTlGrWphFeqos09lpCrNHsTo4GCLaMdGF9IrCHUMCnew&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=y4FYOM_NpWevkT0EUq1xKA&_nc_ss=792a8&oh=00_AQIdlgFPEmVgCPp8vNYIMCcHYP5xXiSB4rLRA3u2WswqEA&oe=6AAAD7D0',
   },
   {
     id: 'stephanie-arias',
@@ -50,7 +51,7 @@ export const STYLISTS_LIST: Stylist[] = [
     role: 'Senior Stylist/Wella Educator',
     bio: "As an accomplished Senior Stylist and certified Wella Educator, Kenny is a master of corrective color, editorial styling, and precision technique. He mentors emerging stylists while delivering runway-caliber transformations.",
     specialties: ['Master Colorist', 'Editorial Styling', 'Wella Education', 'Corrective Color'],
-    image: 'https://scontent-iad3-1.xx.fbcdn.net/v/t51.82787-15/515413865_17898848781239551_4190265341820306111_n.jpg?stp=dst-jpg_tt6&cstp=mx1179x1473&ctp=s1179x1473&_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG9kOIt9Qgy7ZW_49sjvQykFRZHKQ5wv9AVFkcpDnC_0BNK4fBInp3NhtcgViNWvu0AKzZw8GoZmYwjD7MyszaO&_nc_ohc=Ez2O7P5wRbAQ7kNvwHBuRLl&_nc_oc=Adrcm5771u4tTLC_HMHmUZYoPu9KC6sK5yODi8HwTVPyqPQhWMmP4dMKVfp6-y-VMcc&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=BO96d5W07Jbcxr9sfQcTiQ&_nc_ss=792a8&oh=00_AQL-lIK3LoH98jctpxf83ZP7y88k0BhXCYZdrZ39v_MoZQ&oe=6AA7EC6E',
+    image: 'https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/706318041_3722721307878899_5657463308930864186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFbv2glmfN3GY0Lhf3n-AccZxi0GrYsxPxnGLQatizE_LIOsjUQ4IfgqVGaVRTGmeH-k5cx2V4MuY1TkMYDK1RV&_nc_ohc=U6MO4WLQy5cQ7kNvwFeOjeI&_nc_oc=AdqcKYbomK4MI38Onu5vJ0RPz35kX8AFY4qRTCp51eCV_TgIdj1CrYhoCcqi9bNydD8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=WF3NqeMZwAQXOAFt0BIoeQ&_nc_ss=792a8&oh=00_AQJxqx-kbQ8G5b3z2K3e2iyO-murCSJbgnEsyjvEUkKp6A&oe=6AAABC73',
   },
 ];
 
@@ -59,13 +60,13 @@ export const STYLISTS = STYLISTS_LIST;
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    quote: 'Way more than a haircut. Going to The Josie Hair Salon feels like going to a luxury boutique spa! I left looking and feeling marvelous!',
+    quote: 'Way more than a haircut. Going to Laci | CR Iowa Hairstylist feels like going to a luxury boutique spa! I left looking and feeling marvelous!',
     author: 'Tanya B',
     location: 'Cedar Rapids, IA',
   },
   {
     id: '2',
-    quote: 'Josie is a true color artist. My balayage looks effortlessly luminous and natural, lasting months with zero harsh lines. The vibe is sophisticated and welcoming.',
+    quote: 'Laci is a true color artist. My balayage looks effortlessly luminous and natural, lasting months with zero harsh lines. The vibe is sophisticated and welcoming.',
     author: 'Michelle R',
     location: 'Marion, IA',
   },
@@ -153,7 +154,7 @@ export const SERVICES_LIST: ServiceItem[] = [
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'best-products-coloured-hair',
-    title: 'Best Hair Products for Coloured Hair: What Josie Recommends',
+    title: 'Best Hair Products for Coloured Hair: What Laci Recommends',
     excerpt: 'The best hair products for coloured hair protect pigment, restore moisture and maintain luminous dimension between salon visits...',
     image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=85',
     imageAlt: 'Blonde woman with gorgeous healthy coloured blowout smiling outdoors',
@@ -169,7 +170,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'balayage-on-curly-hair',
     title: 'Balayage on Curly Hair: Is It Suitable for You?',
-    excerpt: 'Yes, balayage suits curly hair beautifully. The Josie Hair Salon explains how balayage enhances natural curls and dimensional wave patterns...',
+    excerpt: 'Yes, balayage suits curly hair beautifully. Laci | CR Iowa Hairstylist explains how balayage enhances natural curls and dimensional wave patterns...',
     image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=85',
     imageAlt: 'Young woman with sun-kissed naturally curly textured hair in casual white tee',
     date: 'February 2026',
@@ -178,7 +179,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'A common misconception is that balayage only works on straight or blow-dried hair. In reality, hand-painted balayage is arguably the most flattering colour technique for curls and textured coils.',
       'Freehand Precision: Because curls fall in organic ribbons rather than uniform sheets, traditional foil lines can look disjointed. With balayage, your stylist paints each curl cluster according to its natural bounce and contour.',
       'Zero Harsh Regrowth: The seamless graduation of pigment means you enjoy a gentle, low-maintenance grow-out with no stark demarcation lines at your roots.',
-      'Hydration First: Bleach naturally dehydrates curly patterns. At The Josie Hair Salon, we incorporate bond multipliers into our lighteners and follow every balayage with an acid-balanced gloss to seal hydration.',
+      'Hydration First: Bleach naturally dehydrates curly patterns. At Laci | CR Iowa Hairstylist, we incorporate bond multipliers into our lighteners and follow every balayage with an acid-balanced gloss to seal hydration.',
     ],
   },
   {
@@ -203,7 +204,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: 'Colour & Balayage',
     question: 'How do I know whether balayage, traditional foil highlights, or a gloss is right for me?',
     answer:
-      "Every appointment at The Josie Hair Salon begins with a personalized, one-on-one consultation. We evaluate your hair texture, chemical history, and daily maintenance goals. Balayage offers an organic, seamless, sun-kissed gradient that grows out softly with zero harsh demarcation. Foil highlights deliver brighter dimension from roots to ends, and a conditioning gloss revives tone, enhances richness, and seals in mirror-like shine.",
+      "Every appointment at Laci | CR Iowa Hairstylist begins with a personalized, one-on-one consultation. We evaluate your hair texture, chemical history, and daily maintenance goals. Balayage offers an organic, seamless, sun-kissed gradient that grows out softly with zero harsh demarcation. Foil highlights deliver brighter dimension from roots to ends, and a conditioning gloss revives tone, enhances richness, and seals in mirror-like shine.",
   },
   {
     id: 'faq-2',
@@ -257,17 +258,17 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     views: '42.8K',
     likes: '3.2K',
     platform: 'both',
-    link: 'https://instagram.com/thejosiehairsalon',
+    link: 'https://instagram.com',
   },
   {
     id: 'reel-2',
     thumbnail: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=85',
     overlayText: 'THE RESULTS',
-    caption: 'That smile when the gloss hits just right 🤍 Dimensional lived-in blonde by Josie.',
+    caption: 'That smile when the gloss hits just right 🤍 Dimensional lived-in blonde by Laci.',
     views: '89.4K',
     likes: '7.1K',
     platform: 'both',
-    link: 'https://instagram.com/thejosiehairsalon',
+    link: 'https://instagram.com',
   },
   {
     id: 'reel-3',
@@ -276,7 +277,7 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     views: '61.2K',
     likes: '5.4K',
     platform: 'both',
-    link: 'https://instagram.com/thejosiehairsalon',
+    link: 'https://instagram.com',
   },
   {
     id: 'reel-4',
@@ -285,7 +286,7 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     views: '114K',
     likes: '9.8K',
     platform: 'both',
-    link: 'https://instagram.com/thejosiehairsalon',
+    link: 'https://instagram.com',
   },
   {
     id: 'reel-5',
@@ -295,6 +296,6 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     views: '158K',
     likes: '14.2K',
     platform: 'both',
-    link: 'https://tiktok.com/@thejosiehairsalon',
+    link: 'https://tiktok.com',
   },
 ];

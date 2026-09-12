@@ -14,19 +14,19 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
 
   const textSizes = {
     sm: {
-      the: 'text-[9px] tracking-[0.3em]',
-      josie: 'text-sm font-semibold tracking-[0.22em]',
-      salon: 'text-[9px] tracking-[0.3em]',
+      sub: 'text-[8px] tracking-[0.22em]',
+      main: 'text-sm font-semibold tracking-[0.24em]',
+      tag: 'text-[8px] tracking-[0.26em]',
     },
     md: {
-      the: 'text-[10px] tracking-[0.35em]',
-      josie: 'text-lg font-semibold tracking-[0.24em]',
-      salon: 'text-[11px] tracking-[0.35em]',
+      sub: 'text-[9px] tracking-[0.25em]',
+      main: 'text-lg font-semibold tracking-[0.26em]',
+      tag: 'text-[9px] tracking-[0.28em]',
     },
     lg: {
-      the: 'text-sm tracking-[0.4em]',
-      josie: 'text-3xl font-semibold tracking-[0.26em]',
-      salon: 'text-sm tracking-[0.4em]',
+      sub: 'text-xs tracking-[0.3em]',
+      main: 'text-3xl font-semibold tracking-[0.28em]',
+      tag: 'text-xs tracking-[0.35em]',
     },
   };
 
@@ -39,19 +39,19 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
       }}
     >
       <span
-        className={`font-serif text-[#c5a059] uppercase leading-none mb-0.5 ${textSizes[size].the}`}
+        className={`font-serif text-[#c5a059] uppercase leading-none mb-0.5 ${textSizes[size].sub}`}
       >
-        THE
+        CR IOWA
       </span>
       <span
-        className={`font-serif text-[#c5a059] uppercase leading-tight font-medium ${textSizes[size].josie}`}
+        className={`font-serif text-[#c5a059] uppercase leading-tight font-medium ${textSizes[size].main}`}
       >
-        JOSIE
+        LACI
       </span>
       <span
-        className={`font-serif text-[#c5a059] uppercase leading-none mt-0.5 font-light ${textSizes[size].salon}`}
+        className={`font-serif text-[#c5a059] uppercase leading-none mt-0.5 font-light ${textSizes[size].tag}`}
       >
-        HAIR SALON
+        HAIRSTYLIST
       </span>
     </div>
   );

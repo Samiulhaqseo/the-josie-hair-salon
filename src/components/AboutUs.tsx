@@ -18,15 +18,15 @@ export const AboutUs: React.FC = () => {
         {/* Descriptive Copy matching the exact text */}
         <div className="space-y-6 sm:space-y-7 text-[#404040] text-sm sm:text-[15px] md:text-base leading-relaxed sm:leading-loose font-light">
           <p id="about-us-p1">
-            The Josie Hair Salon is Cedar Rapids' premier full-service salon offering the latest in cut,
+            Laci | CR Iowa Hairstylist is Cedar Rapids' premier full-service salon offering the latest in cut,
             color and style. We believe beauty is more than just how you look, it's how you feel.
-            Whether you're looking for a drastic change or just need a refresh, our stylists at The
-            Josie Hair Salon are dedicated to offering you the very best individualized salon
+            Whether you're looking for a drastic change or just need a refresh, our stylists at Laci |
+            CR Iowa Hairstylist are dedicated to offering you the very best individualized salon
             experience.
           </p>
 
           <p id="about-us-p2">
-            Led by an extraordinary artist and salon owner, Josie Davis has brought
+            Led by an extraordinary artist and salon owner, Laci has brought
             together unrivaled talent and her own unique creative edge to create Cedar Rapids' top salon
             experience.
           </p>

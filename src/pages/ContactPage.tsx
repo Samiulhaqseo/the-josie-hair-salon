@@ -227,9 +227,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate, onOpenBook
                       Studio Address
                     </h4>
                     <p className="text-xs sm:text-[13px] text-[#555555] font-light mt-0.5 leading-relaxed">
-                      {SALON_INFO.address.street}, Suite {SALON_INFO.address.suite}
-                      <br />
-                      {SALON_INFO.address.city}, {SALON_INFO.address.state} {SALON_INFO.address.zip}
+                      {SALON_INFO.address.cityStateZip}
                     </p>
                   </div>
                 </div>
@@ -298,7 +296,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate, onOpenBook
               <div className="pt-4 border-t border-[#f2ede4] flex items-start space-x-3 text-xs text-[#666666] font-light leading-relaxed">
                 <Car className="w-4 h-4 text-[#c5a059] shrink-0 mt-0.5" />
                 <span>
-                  Complimentary private client parking is located directly behind Suite 100 with wheelchair-accessible ground entry.
+                  Complimentary private client parking is located directly behind the studio with wheelchair-accessible ground entry.
                 </span>
               </div>
             </div>

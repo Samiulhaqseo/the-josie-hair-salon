@@ -172,7 +172,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                     <input
                       type="tel"
                       required
-                      placeholder="+57 319 4126217"
+                      placeholder="+00 123 40000"
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
                       className="w-full bg-white border border-[#d8d2c4] px-3.5 py-2.5 rounded-none focus:border-[#c5a059] focus:outline-none text-[#222222]"
@@ -239,7 +239,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
             <p className="text-sm text-[#555555] font-light leading-relaxed max-w-md mx-auto">
               Thank you, <strong className="text-black font-medium">{name}</strong>. Our concierge
-              at The Josie Hair Salon has received your appointment request for{' '}
+              at Laci | CR Iowa Hairstylist has received your appointment request for{' '}
               <strong className="text-black font-medium">{currentServiceItem.name}</strong> with{' '}
               <strong className="text-black font-medium">{selectedStylist}</strong>.
             </p>
@@ -250,8 +250,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                 {timeSlot}
               </p>
               <p>
-                <span className="text-gray-500">Salon:</span> {SALON_INFO.address.street},{' '}
-                {SALON_INFO.address.cityStateZip}
+                <span className="text-gray-500">Salon:</span> {SALON_INFO.address.cityStateZip}
               </p>
               <p>
                 <span className="text-gray-500">Confirmation Sent:</span> {email || phone}

@@ -37,7 +37,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onNavigate
         </h1>
         <div className="w-16 h-px bg-[#c5a059] mx-auto mt-6 mb-6" />
         <p className="text-xs sm:text-sm text-[#777777] font-light">
-          Last Updated: March 2026 • The Josie Hair Salon, Cedar Rapids, Iowa
+          Last Updated: March 2026 • Laci | CR Iowa Hairstylist, Cedar Rapids, Iowa
         </p>
       </header>
 
@@ -50,7 +50,7 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onNavigate
               1. Introduction & Our Commitment
             </h2>
             <p>
-              At The Josie Hair Salon ("we," "us," or "our"), located at {SALON_INFO.address.street}, Suite {SALON_INFO.address.suite}, {SALON_INFO.address.city}, {SALON_INFO.address.state} {SALON_INFO.address.zip}, we prioritize the confidentiality and security of our guests’ personal information. This Privacy Policy details how we collect, store, utilize, and safeguard your personal details when you interact with our website, book salon appointments, participate in text message notifications, or visit our studio.
+              At Laci | CR Iowa Hairstylist ("we," "us," or "our"), located in {SALON_INFO.address.cityStateZip}, we prioritize the confidentiality and security of our guests’ personal information. This Privacy Policy details how we collect, store, utilize, and safeguard your personal details when you interact with our website, book salon appointments, participate in text message notifications, or visit our studio.
             </p>
           </section>
 
@@ -140,9 +140,9 @@ export const PrivacyPolicyPage: React.FC<PrivacyPolicyPageProps> = ({ onNavigate
               If you have any questions, concerns, or requests regarding this Privacy Policy or your personal data, please contact our studio administrator:
             </p>
             <div className="bg-[#faf9f6] p-4 border border-[#e8e2d5] space-y-1 text-xs">
-              <p className="font-medium text-[#111111]">The Josie Hair Salon</p>
+              <p className="font-medium text-[#111111]">Laci | CR Iowa Hairstylist</p>
               <p>Attention: Privacy Administrator</p>
-              <p>{SALON_INFO.address.street}, Suite {SALON_INFO.address.suite}, {SALON_INFO.address.city}, {SALON_INFO.address.state} {SALON_INFO.address.zip}</p>
+              <p>{SALON_INFO.address.cityStateZip}</p>
               <p>Telephone: {SALON_INFO.phoneFormatted}</p>
               <p>Email: {SALON_INFO.email}</p>
             </div>

@@ -38,11 +38,7 @@ export const Footer: React.FC<FooterProps> = ({
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-[#c5a059] shrink-0 mt-0.5" />
                 <p>
-                  {SALON_INFO.address.street}
-                  <br />
-                  Suite {SALON_INFO.address.suite}
-                  <br />
-                  {SALON_INFO.address.city}, {SALON_INFO.address.state} {SALON_INFO.address.zip}
+                  {SALON_INFO.address.cityStateZip}
                 </p>
               </div>
 
@@ -216,7 +212,7 @@ export const Footer: React.FC<FooterProps> = ({
 
             {/* Copyright */}
             <p className="text-[11px] text-white/40 tracking-wider">
-              © {new Date().getFullYear()} The Josie Hair Salon. All rights reserved.
+              © {new Date().getFullYear()} Laci | CR Iowa Hairstylist. All rights reserved.
             </p>
           </div>
         </div>

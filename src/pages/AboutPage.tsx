@@ -38,7 +38,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
         </h1>
         <div className="w-16 h-px bg-[#c5a059] mx-auto mt-6 mb-6" />
         <p className="text-sm sm:text-base text-[#555555] font-light leading-relaxed max-w-2xl mx-auto">
-          Founded in Cedar Rapids, Iowa by master colorist Josie Davis, The Josie Hair Salon was born out of a desire to eliminate the noise, rush, and chemical harshness of conventional salons.
+          Founded in Cedar Rapids, Iowa by master colorist Laci, Laci | CR Iowa Hairstylist was born out of a desire to eliminate the noise, rush, and chemical harshness of conventional salons.
         </p>
       </header>
 
@@ -53,10 +53,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
               "We believe visiting a salon should feel like an unhurried retreat, not an assembly line."
             </h2>
             <p className="text-xs sm:text-sm text-[#444444] font-light leading-relaxed">
-              For over a decade, Josie Davis honed her craft in premier salons across the Midwest, studying advanced French balayage and European formulation. Yet she noticed an alarming pattern in the modern beauty industry: overlapping appointments, frantic stylists, and harsh chemicals that compromised long-term hair elasticity.
+              For over a decade, Laci honed her craft in premier salons across the Midwest, studying advanced French balayage and European formulation. Yet she noticed an alarming pattern in the modern beauty industry: overlapping appointments, frantic stylists, and harsh chemicals that compromised long-term hair elasticity.
             </p>
             <p className="text-xs sm:text-sm text-[#444444] font-light leading-relaxed">
-              In 2021, Josie opened the doors to The Josie Hair Salon at 1100 3rd St SE with a revolutionary standard: **one guest at a time**. No double-booking. No assistants taking over crucial color formulation. Just uninterrupted, master-level artistry in a serene, natural-light sanctuary.
+              In 2021, Laci opened the doors to Laci | CR Iowa Hairstylist in Cedar Rapids, IA with a revolutionary standard: **one guest at a time**. No double-booking. No assistants taking over crucial color formulation. Just uninterrupted, master-level artistry in a serene, natural-light sanctuary.
             </p>
 
             <div className="pt-2 flex items-center space-x-6">
@@ -85,11 +85,11 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
 
           <div className="lg:col-span-6 aspect-[4/5] overflow-hidden bg-[#ebe6dc] border border-[#e2dcd0] shadow-sm relative">
             <img
-              src="https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/673438053_122198811014386712_588884175228751790_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx1320x1320&ctp=s1320x1320&_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeESjZEutvPpCh6HW6kWhktt0t4wT94uSWrS3jBP3i5JamdaP8HYwuQZujVt3A5W9ApLk-PhwxIzcJBBPJ-Bmy31&_nc_ohc=yRoupB3kmmcQ7kNvwFhSsUA&_nc_oc=Adr-rb6w090raIc4INS_r_kW5x7caJ6hhwRPB52_E_9V8UgA4e62RHrS-5K5Irpe4mE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=peVZ7iyvHuuI0FmFqDdZnw&_nc_ss=792a8&oh=00_AQIVrE_6ayRePpb_Gh3T1w4qY4xaagO9J1zEouAaXEan3A&oe=6AA7C503"
+              src="https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/763831721_3804590603025302_9090068041945421282_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFKyH9Lv7_HemWvJVMp8Bk8pho1GvK2xa-mGjUa8rbFrxhuPdRlPGQZ_GfSrXmfBEVIkYaPnv-Y1Nwqs_O421qX&_nc_ohc=hUmNf2mZoZMQ7kNvwE0Kr3h&_nc_oc=Adrr2hYDOx92ONpkYPBrblrFTlGrWphFeqos09lpCrNHsTo4GCLaMdGF9IrCHUMCnew&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=y4FYOM_NpWevkT0EUq1xKA&_nc_ss=792a8&oh=00_AQIdlgFPEmVgCPp8vNYIMCcHYP5xXiSB4rLRA3u2WswqEA&oe=6AAAD7D0"
               onError={(e) => {
-                (e.currentTarget as HTMLImageElement).src = '/team-josie.jpg';
+                (e.currentTarget as HTMLImageElement).src = '/team-laci.jpg';
               }}
-              alt="Josie Davis, Founder & Master Stylist"
+              alt="Laci, Founder & Master Stylist"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
             />
@@ -98,7 +98,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
                 "Every strand tells a story. Our mission is to make yours healthy, luminous, and effortless."
               </p>
               <p className="text-[10px] text-[#777777] uppercase tracking-wider mt-1">
-                — Josie Davis, Founder & Master Stylist
+                — Laci, Founder & Master Stylist
               </p>
             </div>
           </div>
@@ -174,12 +174,12 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
                 VISIT OUR BOUTIQUE SANCTUARY
               </h3>
               <p className="text-xs sm:text-sm text-white/75 font-light leading-relaxed max-w-xl">
-                Conveniently situated at {SALON_INFO.address.street}, Suite {SALON_INFO.address.suite}, in {SALON_INFO.address.city}, {SALON_INFO.address.state} {SALON_INFO.address.zip}. Enjoy private guest parking directly behind the building and step into a calm, welcoming haven.
+                Conveniently situated in {SALON_INFO.address.cityStateZip}. Enjoy private guest parking and step into a calm, welcoming haven.
               </p>
               <div className="pt-2 flex flex-wrap items-center gap-4 text-xs text-white/90">
                 <span className="flex items-center space-x-1.5">
                   <MapPin className="w-4 h-4 text-[#dfba73]" />
-                  <span>{SALON_INFO.address.street}, {SALON_INFO.address.city}, IA</span>
+                  <span>{SALON_INFO.address.cityStateZip}</span>
                 </span>
                 <span className="flex items-center space-x-1.5">
                   <Phone className="w-4 h-4 text-[#dfba73]" />

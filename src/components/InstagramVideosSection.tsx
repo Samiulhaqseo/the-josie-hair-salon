@@ -129,24 +129,24 @@ export const InstagramVideosSection: React.FC<InstagramVideosSectionProps> = ({ 
             <div className="h-4 w-px bg-[#e5dfd3] hidden sm:block" />
 
             <a
-              href="https://instagram.com/thejosiehairsalon"
+              href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-xs text-[#111111] hover:text-[#c5a059] font-medium tracking-wider transition-colors"
             >
-              <span>@thejosiehairsalon on Instagram</span>
+              <span>@lacicriowahairstylist on Instagram</span>
               <ExternalLink className="w-3 h-3 text-[#c5a059]" />
             </a>
 
             <div className="h-4 w-px bg-[#e5dfd3] hidden sm:block" />
 
             <a
-              href="https://tiktok.com/@thejosiehairsalon"
+              href="https://tiktok.com"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-xs text-[#111111] hover:text-[#c5a059] font-medium tracking-wider transition-colors"
             >
-              <span>@thejosiehairsalon on TikTok</span>
+              <span>@lacicriowahairstylist on TikTok</span>
               <ExternalLink className="w-3 h-3 text-[#c5a059]" />
             </a>
           </div>
@@ -207,12 +207,12 @@ export const InstagramVideosSection: React.FC<InstagramVideosSectionProps> = ({ 
                     <div className="w-8 h-8 rounded-full border border-white/40 overflow-hidden bg-[#c5a059]">
                       <img
                         src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
-                        alt="The Josie Salon profile"
+                        alt="Laci | CR Iowa Hairstylist profile"
                         className="w-full h-full object-cover"
                       />
                     </div>
                     <div>
-                      <p className="text-xs font-medium tracking-wide">thejosiehairsalon</p>
+                      <p className="text-xs font-medium tracking-wide">lacicriowahairstylist</p>
                       <p className="text-[10px] text-white/60 font-light">Original Audio • Salon Vibes</p>
                     </div>
                   </div>

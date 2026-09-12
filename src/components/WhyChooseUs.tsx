@@ -50,7 +50,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenBooking }) => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 sm:mb-20">
           <span className="font-serif text-xs text-[#c5a059] uppercase tracking-[0.28em] block mb-3 font-medium">
-            THE JOSIE DIFFERENCE
+            THE LACI DIFFERENCE
           </span>
           <h2
             id="why-choose-us-heading"
@@ -102,7 +102,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenBooking }) => {
                 {/* Subtle bottom indicator line */}
                 <div className="mt-6 pt-4 border-t border-[#f3efe8] flex items-center space-x-2 text-[11px] text-[#c5a059] font-serif uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                   <CheckCircle2 className="w-3.5 h-3.5" />
-                  <span>The Josie Standard</span>
+                  <span>The Laci Standard</span>
                 </div>
               </div>
             );
@@ -116,7 +116,7 @@ export const WhyChooseUs: React.FC<WhyChooseUsProps> = ({ onOpenBooking }) => {
               "Healthy hair is the foundation of timeless beauty. We never rush the process."
             </p>
             <p className="text-xs text-[#888888] font-light uppercase tracking-wider">
-              Josie & The Styling Team • Cedar Rapids, Iowa
+              Laci & The Styling Team • Cedar Rapids, Iowa
             </p>
           </div>
 

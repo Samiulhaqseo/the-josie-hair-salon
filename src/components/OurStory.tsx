@@ -21,28 +21,28 @@ export const OurStory: React.FC = () => {
               id="our-story-body"
               className="text-[#404040] text-sm sm:text-[15px] md:text-base leading-relaxed sm:leading-loose font-light"
             >
-              The Josie Hair Salon was founded by salon owner and master stylist Josie Davis,
+              Laci | CR Iowa Hairstylist was founded by salon owner and master stylist Laci,
               whose dream is to provide a premier boutique salon experience to her Cedar Rapids
               clientele. Designed as a warm, welcoming sanctuary, the salon radiates the creative
               energy generated from a fantastic staff driven to deliver the best bespoke color,
-              balayage, and cuts to their clients. The Josie Hair Salon is the place for you to
+              balayage, and cuts to their clients. Laci | CR Iowa Hairstylist is the place for you to
               become your most beautiful self.
             </p>
           </div>
 
-          {/* Right Column: Josie Stylist Photograph */}
+          {/* Right Column: Laci Stylist Photograph */}
           <div className="relative order-1 md:order-2">
             <div
               id="our-story-image-container"
               className="relative overflow-hidden bg-[#e5dfd3] shadow-lg border border-[#ece8de] aspect-square max-w-md mx-auto"
             >
               <img
-                id="our-story-josie-image"
-                src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/723240801_122204643632386712_4359750185395679601_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s206x206&_nc_cat=105&ccb=1-7&_nc_sid=7a06f5&_nc_eui2=AeFiAtOeyMGZ9lcC7avEBsZ-tyhnn_Jwq823KGef8nCrzXlcGd2f6fsc1no0LW0hXejL1U-j6ofJ6CBodVZ6i7ux&_nc_ohc=n7GxNxFt72MQ7kNvwHR3ypV&_nc_oc=AdpDpixO5ZVRpkXxlQb8jGOkDN9AmqIiqUh94WEi1zuqDiPRRTZyR7W97yZpqxaT_nE&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=eDH5a1oyjp3nSUjouLsuwg&_nc_ss=792a8&oh=00_AQKrvjudWL4m2P_DZL8dbndC8YVS6MQBBi5vckbaJFovaA&oe=6AA7F868"
+                id="our-story-laci-image"
+                src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/763824691_3804590616358634_1176831187202434842_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFN7rI8OO0ehfn0HqDks9RNvwt5bNDgiT6_C3ls0OCJPjkTH1GTDb65MeMAjCM1yBmeX96KMK1yQfL8QmfaU3sz&_nc_ohc=DOyFEaWdexsQ7kNvwF0Osg3&_nc_oc=AdqkuPnYSheZ40ejRcUHPJ9drs4ybhIcRZBFsRacghF-kwOqrWm9ZSPD8-THFnnu1pk&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=SbcElpLlMzjDpIZVm9oI0w&_nc_ss=792a8&oh=00_AQKwOYyMVZLaetK76oA4RRmP9tNYXgFX8ON-cjEwDdwDSw&oe=6AAAD87C"
                 onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src = '/team-josie.jpg';
+                  (e.currentTarget as HTMLImageElement).src = '/laci-story.jpg';
                 }}
-                alt="Josie Davis, Owner of The Josie Hair Salon"
+                alt="Laci, Owner of Laci | CR Iowa Hairstylist"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-[center_18%] transition-transform duration-700 hover:scale-105"
               />

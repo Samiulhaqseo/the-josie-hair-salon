@@ -23,14 +23,14 @@ export const Team: React.FC<TeamProps> = ({ onOpenBookingWithStylist }) => {
               id="team-main-heading"
               className="font-serif text-[#c5a059] text-2xl sm:text-3xl md:text-4xl uppercase tracking-[0.25em] font-normal mb-8 select-none"
             >
-              THE JOSIE HAIR SALON TEAM
+              LACI | CR IOWA HAIRSTYLIST TEAM
             </h2>
 
             <p
               id="team-description-body"
               className="text-[#404040] text-sm sm:text-[15px] md:text-base leading-relaxed sm:leading-loose font-light mb-8"
             >
-              At The Josie Hair Salon, we pride ourselves on commitment to our customers. Our stylists
+              At Laci | CR Iowa Hairstylist, we pride ourselves on commitment to our customers. Our stylists
               are carefully selected for their dedication to excellence and devotion to refining
               their technique. We strive to stay informed on all of the latest trends, cutting
               edge styles, products and technology. We offer a wide range of salon services that
@@ -50,7 +50,7 @@ export const Team: React.FC<TeamProps> = ({ onOpenBookingWithStylist }) => {
             </div>
           </div>
 
-          {/* Right Column: Featured Stylist Card (Owner Josie Davis) matching screenshot */}
+          {/* Right Column: Featured Stylist Card (Owner Laci) matching screenshot */}
           <div className="flex flex-col items-center">
             <div
               id="featured-stylist-card"
@@ -61,7 +61,7 @@ export const Team: React.FC<TeamProps> = ({ onOpenBookingWithStylist }) => {
                 <img
                   src={leadStylist.image}
                   onError={(e) => {
-                    (e.currentTarget as HTMLImageElement).src = '/team-josie.jpg';
+                    (e.currentTarget as HTMLImageElement).src = '/team-laci.jpg';
                   }}
                   alt={`${leadStylist.name}, ${leadStylist.role}`}
                   referrerPolicy="no-referrer"

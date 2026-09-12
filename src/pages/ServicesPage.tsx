@@ -130,7 +130,7 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({ onNavigate, onOpenBo
                 <img
                   src={item.image}
                   onError={(e) => {
-                    (e.currentTarget as HTMLImageElement).src = '/team-josie.jpg';
+                    (e.currentTarget as HTMLImageElement).src = '/team-laci.jpg';
                   }}
                   alt={item.title}
                   referrerPolicy="no-referrer"

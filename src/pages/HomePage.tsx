@@ -40,7 +40,7 @@ export const HomePage: React.FC<HomePageProps> = ({
       <SalonInterior onOpenBooking={() => onOpenBooking()} />
 
       {/* 4. Our Story / Founder Spotlight */}
-      <OurStory onOpenBooking={() => onOpenBooking('Josie Davis')} />
+      <OurStory onOpenBooking={() => onOpenBooking('Laci')} />
 
       {/* 5. Services Menu Highlights */}
       <Services
