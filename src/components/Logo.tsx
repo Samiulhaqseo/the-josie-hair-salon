@@ -41,17 +41,17 @@ export const Logo: React.FC<LogoProps> = ({ className = '', size = 'md' }) => {
       <span
         className={`font-serif text-[#c5a059] uppercase leading-none mb-0.5 ${textSizes[size].sub}`}
       >
-        CR IOWA
+        CEDAR RAPIDS, IOWA
       </span>
       <span
         className={`font-serif text-[#c5a059] uppercase leading-tight font-medium ${textSizes[size].main}`}
       >
-        LACI
+        DELANEY
       </span>
       <span
         className={`font-serif text-[#c5a059] uppercase leading-none mt-0.5 font-light ${textSizes[size].tag}`}
       >
-        HAIRSTYLIST
+        HAIR STYLIST
       </span>
     </div>
   );

@@ -23,14 +23,14 @@ export const Team: React.FC<TeamProps> = ({ onOpenBookingWithStylist }) => {
               id="team-main-heading"
               className="font-serif text-[#c5a059] text-2xl sm:text-3xl md:text-4xl uppercase tracking-[0.25em] font-normal mb-8 select-none"
             >
-              LACI | CR IOWA HAIRSTYLIST TEAM
+              DELANEY HAIR STYLIST TEAM
             </h2>
 
             <p
               id="team-description-body"
               className="text-[#404040] text-sm sm:text-[15px] md:text-base leading-relaxed sm:leading-loose font-light mb-8"
             >
-              At Laci | CR Iowa Hairstylist, we pride ourselves on commitment to our customers. Our stylists
+              At Delaney Hair Stylist, we pride ourselves on commitment to our customers. Our stylists
               are carefully selected for their dedication to excellence and devotion to refining
               their technique. We strive to stay informed on all of the latest trends, cutting
               edge styles, products and technology. We offer a wide range of salon services that
@@ -50,7 +50,7 @@ export const Team: React.FC<TeamProps> = ({ onOpenBookingWithStylist }) => {
             </div>
           </div>
 
-          {/* Right Column: Featured Stylist Card (Owner Laci) matching screenshot */}
+          {/* Right Column: Featured Stylist Card (Owner Delaney) matching screenshot */}
           <div className="flex flex-col items-center">
             <div
               id="featured-stylist-card"
@@ -125,7 +125,7 @@ export const Team: React.FC<TeamProps> = ({ onOpenBookingWithStylist }) => {
                 OUR ARTISTS & STYLISTS
               </h2>
               <p className="text-sm text-[#666666] font-light tracking-wide">
-                Cedar Rapids' top colorists, precision cutters, and balayage specialists
+                Cedar Rapids, Iowa's top colorists, precision cutters, and balayage specialists
               </p>
             </div>
 

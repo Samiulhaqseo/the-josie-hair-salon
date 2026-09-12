@@ -185,7 +185,7 @@ export const Footer: React.FC<FooterProps> = ({
             </div>
 
             <p className="text-xs text-white/60 font-light max-w-xs">
-              Boutique hair salon specializing in bespoke balayage, precision haircutting, and healthy hair care in Cedar Rapids.
+              Boutique hair salon specializing in bespoke balayage, precision haircutting, and healthy hair care in Cedar Rapids, Iowa.
             </p>
 
             {/* Social Icons */}
@@ -212,7 +212,7 @@ export const Footer: React.FC<FooterProps> = ({
 
             {/* Copyright */}
             <p className="text-[11px] text-white/40 tracking-wider">
-              © {new Date().getFullYear()} Laci | CR Iowa Hairstylist. All rights reserved.
+              © {new Date().getFullYear()} Delaney Hair Stylist. All rights reserved.
             </p>
           </div>
         </div>

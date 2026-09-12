@@ -37,7 +37,7 @@ export const TermsConditionsPage: React.FC<TermsConditionsPageProps> = ({ onNavi
         </h1>
         <div className="w-16 h-px bg-[#c5a059] mx-auto mt-6 mb-6" />
         <p className="text-xs sm:text-sm text-[#777777] font-light">
-          Effective Date: March 2026 • Laci | CR Iowa Hairstylist, Cedar Rapids, Iowa
+          Effective Date: March 2026 • Delaney Hair Stylist, Cedar Rapids, Iowa
         </p>
       </header>
 
@@ -50,7 +50,7 @@ export const TermsConditionsPage: React.FC<TermsConditionsPageProps> = ({ onNavi
               1. Welcome & Acceptance of Terms
             </h2>
             <p>
-              Welcome to Laci | CR Iowa Hairstylist. By scheduling an appointment, using our website, or receiving services at our salon located in {SALON_INFO.address.cityStateZip}, you acknowledge and agree to comply with the following salon policies, guidelines, and terms of service.
+              Welcome to Delaney Hair Stylist. By scheduling an appointment, using our website, or receiving services at our salon located in {SALON_INFO.address.cityStateZip}, you acknowledge and agree to comply with the following salon policies, guidelines, and terms of service.
             </p>
           </section>
 
@@ -122,7 +122,7 @@ export const TermsConditionsPage: React.FC<TermsConditionsPageProps> = ({ onNavi
               For your safety and the structural integrity of your hair, guests must provide full and accurate disclosures regarding previous chemical treatments, including but not limited to box dyes, metallic salts, henna, relaxers, and perm solutions.
             </p>
             <p>
-              Guests with known allergies or scalp conditions agree to request a complimentary patch test 48 hours prior to any chemical or coloring service. Laci | CR Iowa Hairstylist is not liable for adverse reactions resulting from undisclosed medical or chemical histories.
+              Guests with known allergies or scalp conditions agree to request a complimentary patch test 48 hours prior to any chemical or coloring service. Delaney Hair Stylist is not liable for adverse reactions resulting from undisclosed medical or chemical histories.
             </p>
           </section>
 
@@ -142,7 +142,7 @@ export const TermsConditionsPage: React.FC<TermsConditionsPageProps> = ({ onNavi
               8. Studio Atmosphere & Child Safety
             </h2>
             <p>
-              Laci | CR Iowa Hairstylist is designed as a tranquil, peaceful retreat for all visitors. We kindly ask guests to silence mobile ringtones and use headphones when streaming audio or video.
+              Delaney Hair Stylist is designed as a tranquil, peaceful retreat for all visitors. We kindly ask guests to silence mobile ringtones and use headphones when streaming audio or video.
             </p>
             <p>
               Due to sharp styling instruments, hot thermal irons, and chemical formulations, children are only permitted in the styling area when actively receiving a haircut service and accompanied by a supervising adult.

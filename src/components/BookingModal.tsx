@@ -67,7 +67,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
                 BOOK APPOINTMENT
               </h3>
               <p className="text-xs text-[#666666] font-light mt-1.5">
-                Experience Cedar Rapids' premier individualized salon service
+                Experience Cedar Rapids, Iowa's premier individualized salon service
               </p>
             </div>
 
@@ -239,7 +239,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
             <p className="text-sm text-[#555555] font-light leading-relaxed max-w-md mx-auto">
               Thank you, <strong className="text-black font-medium">{name}</strong>. Our concierge
-              at Laci | CR Iowa Hairstylist has received your appointment request for{' '}
+              at Delaney Hair Stylist has received your appointment request for{' '}
               <strong className="text-black font-medium">{currentServiceItem.name}</strong> with{' '}
               <strong className="text-black font-medium">{selectedStylist}</strong>.
             </p>

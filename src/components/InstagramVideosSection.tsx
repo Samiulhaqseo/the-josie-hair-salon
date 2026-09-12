@@ -134,7 +134,7 @@ export const InstagramVideosSection: React.FC<InstagramVideosSectionProps> = ({ 
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-xs text-[#111111] hover:text-[#c5a059] font-medium tracking-wider transition-colors"
             >
-              <span>@lacicriowahairstylist on Instagram</span>
+              <span>@delaneyhairstylist on Instagram</span>
               <ExternalLink className="w-3 h-3 text-[#c5a059]" />
             </a>
 
@@ -146,7 +146,7 @@ export const InstagramVideosSection: React.FC<InstagramVideosSectionProps> = ({ 
               rel="noopener noreferrer"
               className="inline-flex items-center space-x-2 text-xs text-[#111111] hover:text-[#c5a059] font-medium tracking-wider transition-colors"
             >
-              <span>@lacicriowahairstylist on TikTok</span>
+              <span>@delaneyhairstylist on TikTok</span>
               <ExternalLink className="w-3 h-3 text-[#c5a059]" />
             </a>
           </div>
@@ -207,12 +207,12 @@ export const InstagramVideosSection: React.FC<InstagramVideosSectionProps> = ({ 
                     <div className="w-8 h-8 rounded-full border border-white/40 overflow-hidden bg-[#c5a059]">
                       <img
                         src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
-                        alt="Laci | CR Iowa Hairstylist profile"
+                        alt="Delaney Hair Stylist profile"
                         className="w-full h-full object-cover"
                       />
                     </div>
                     <div>
-                      <p className="text-xs font-medium tracking-wide">lacicriowahairstylist</p>
+                      <p className="text-xs font-medium tracking-wide">delaneyhairstylist</p>
                       <p className="text-[10px] text-white/60 font-light">Original Audio • Salon Vibes</p>
                     </div>
                   </div>

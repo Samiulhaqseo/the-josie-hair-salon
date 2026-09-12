@@ -182,7 +182,7 @@ export const FaqPage: React.FC<FaqPageProps> = ({ onNavigate, onOpenBooking }) =
               STILL HAVE QUESTIONS?
             </h4>
             <p className="text-xs sm:text-sm text-white/75 font-light leading-relaxed max-w-md">
-              Speak directly with our front desk concierge or send a private inquiry to Laci and the team.
+              Speak directly with our front desk concierge or send a private inquiry to Delaney and the team.
             </p>
           </div>
 

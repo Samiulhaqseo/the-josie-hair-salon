@@ -25,7 +25,7 @@ export const Services: React.FC<ServicesProps> = ({ onOpenServicesModal, onOpenB
           id="services-intro-text"
           className="text-[#404040] text-sm sm:text-[15px] md:text-base leading-relaxed sm:leading-loose font-light max-w-3xl mx-auto mb-6"
         >
-          At Laci | CR Iowa Hairstylist, we are proud to offer an array of highly specialized services to fit
+          At Delaney Hair Stylist, we are proud to offer an array of highly specialized services to fit
           all of our client's needs. To ensure we achieve the vision you have for your hair, all
           salon experiences begin with in-depth consultation with your stylist.
         </p>
@@ -151,7 +151,7 @@ export const Services: React.FC<ServicesProps> = ({ onOpenServicesModal, onOpenB
 
             <p className="text-[#555555] text-xs sm:text-[13.5px] leading-relaxed font-light max-w-xs">
               When it comes to style, nothing is unachievable. From runway ready to photoshoot
-              casual, Laci | CR Iowa Hairstylist crafts the crown for any affair.
+              casual, Delaney Hair Stylist crafts the crown for any affair.
             </p>
           </div>
         </div>

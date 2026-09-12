@@ -38,7 +38,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
         </h1>
         <div className="w-16 h-px bg-[#c5a059] mx-auto mt-6 mb-6" />
         <p className="text-sm sm:text-base text-[#555555] font-light leading-relaxed max-w-2xl mx-auto">
-          Founded in Cedar Rapids, Iowa by master colorist Laci, Laci | CR Iowa Hairstylist was born out of a desire to eliminate the noise, rush, and chemical harshness of conventional salons.
+          Founded in Cedar Rapids, Iowa by master colorist Delaney, Delaney Hair Stylist was born out of a desire to eliminate the noise, rush, and chemical harshness of conventional salons.
         </p>
       </header>
 
@@ -53,10 +53,10 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
               "We believe visiting a salon should feel like an unhurried retreat, not an assembly line."
             </h2>
             <p className="text-xs sm:text-sm text-[#444444] font-light leading-relaxed">
-              For over a decade, Laci honed her craft in premier salons across the Midwest, studying advanced French balayage and European formulation. Yet she noticed an alarming pattern in the modern beauty industry: overlapping appointments, frantic stylists, and harsh chemicals that compromised long-term hair elasticity.
+              For over a decade, Delaney honed her craft in premier salons across the Midwest, studying advanced French balayage and European formulation. Yet she noticed an alarming pattern in the modern beauty industry: overlapping appointments, frantic stylists, and harsh chemicals that compromised long-term hair elasticity.
             </p>
             <p className="text-xs sm:text-sm text-[#444444] font-light leading-relaxed">
-              In 2021, Laci opened the doors to Laci | CR Iowa Hairstylist in Cedar Rapids, IA with a revolutionary standard: **one guest at a time**. No double-booking. No assistants taking over crucial color formulation. Just uninterrupted, master-level artistry in a serene, natural-light sanctuary.
+              In 2021, Delaney opened the doors to Delaney Hair Stylist in Cedar Rapids, Iowa with a revolutionary standard: **one guest at a time**. No double-booking. No assistants taking over crucial color formulation. Just uninterrupted, master-level artistry in a serene, natural-light sanctuary.
             </p>
 
             <div className="pt-2 flex items-center space-x-6">
@@ -85,11 +85,11 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
 
           <div className="lg:col-span-6 aspect-[4/5] overflow-hidden bg-[#ebe6dc] border border-[#e2dcd0] shadow-sm relative">
             <img
-              src="https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/763831721_3804590603025302_9090068041945421282_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFKyH9Lv7_HemWvJVMp8Bk8pho1GvK2xa-mGjUa8rbFrxhuPdRlPGQZ_GfSrXmfBEVIkYaPnv-Y1Nwqs_O421qX&_nc_ohc=hUmNf2mZoZMQ7kNvwE0Kr3h&_nc_oc=Adrr2hYDOx92ONpkYPBrblrFTlGrWphFeqos09lpCrNHsTo4GCLaMdGF9IrCHUMCnew&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=y4FYOM_NpWevkT0EUq1xKA&_nc_ss=792a8&oh=00_AQIdlgFPEmVgCPp8vNYIMCcHYP5xXiSB4rLRA3u2WswqEA&oe=6AAAD7D0"
+              src="https://scontent-iad6-1.xx.fbcdn.net/v/t1.6435-9/89800700_4157372517622376_5838265267267829760_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEBxlj8d30PXqbu5cvkAmpUBKCganJUExkEoKBqclQTGUmXHPNevzXNg_hu3II03IsM4OG9i9usQOiBnFTra2Ng&_nc_ohc=iTf3iqMtqQ0Q7kNvwENe_W4&_nc_oc=Adpd5Qhelgm863TNGp5LlOQfv5l6tO1QNQEfiDy6JOH5igV8Xn2Dw2XR1hIJ-WVGlHE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=--r_9MJPM32bkdTrflKlcA&_nc_ss=792a8&oh=00_AQIVaknefQMlOoPWMGWuNcMy9np05ecNQeohbkKiv2dUSA&oe=6ACC5B29"
               onError={(e) => {
                 (e.currentTarget as HTMLImageElement).src = '/team-laci.jpg';
               }}
-              alt="Laci, Founder & Master Stylist"
+              alt="Delaney, Founder & Master Stylist"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover"
             />
@@ -98,7 +98,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
                 "Every strand tells a story. Our mission is to make yours healthy, luminous, and effortless."
               </p>
               <p className="text-[10px] text-[#777777] uppercase tracking-wider mt-1">
-                — Laci, Founder & Master Stylist
+                — Delaney, Founder & Master Stylist
               </p>
             </div>
           </div>
@@ -168,7 +168,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate, onOpenBooking 
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8 space-y-4">
               <span className="font-serif text-xs text-[#dfba73] uppercase tracking-[0.25em] font-medium block">
-                PROUDLY LOCATED IN CEDAR RAPIDS
+                PROUDLY LOCATED IN CEDAR RAPIDS, IOWA
               </span>
               <h3 className="font-serif text-2xl sm:text-4xl uppercase tracking-[0.15em] font-normal leading-snug">
                 VISIT OUR BOUTIQUE SANCTUARY

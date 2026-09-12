@@ -48,7 +48,7 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose }) =
             </div>
             <h3 className="font-serif text-2xl uppercase tracking-[0.2em]">MESSAGE SENT</h3>
             <p className="text-xs sm:text-sm text-[#666666] max-w-sm mx-auto">
-              Thank you for contacting Laci | CR Iowa Hairstylist. Our front desk concierge will be in touch
+              Thank you for contacting Delaney Hair Stylist. Our front desk concierge will be in touch
               with you shortly.
             </p>
             <button

@@ -34,11 +34,11 @@ export const TeamPage: React.FC<TeamPageProps> = ({ onNavigate, onOpenBookingWit
           id="team-page-title"
           className="font-serif text-3xl sm:text-5xl md:text-6xl text-[#111111] uppercase tracking-[0.16em] font-normal leading-tight"
         >
-          THE ARTISANS OF LACI | CR IOWA HAIRSTYLIST
+          THE ARTISANS OF DELANEY HAIR STYLIST
         </h1>
         <div className="w-16 h-px bg-[#c5a059] mx-auto mt-6 mb-6" />
         <p className="text-sm sm:text-base text-[#555555] font-light leading-relaxed max-w-2xl mx-auto">
-          Every stylist at Laci | CR Iowa Hairstylist has been hand-selected for their passion for healthy hair, continuous master-level education, and warm, attentive chair-side care.
+          Every stylist at Delaney Hair Stylist has been hand-selected for their passion for healthy hair, continuous master-level education, and warm, attentive chair-side care.
         </p>
       </header>
 

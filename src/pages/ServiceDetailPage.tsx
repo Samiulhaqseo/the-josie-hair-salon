@@ -479,7 +479,7 @@ export const ServiceDetailPage: React.FC<ServiceDetailPageProps> = ({
         <div className="bg-[#161c21] text-white p-8 sm:p-12 border border-[#2a343d] flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="space-y-2 text-center md:text-left">
             <span className="font-serif text-xs text-[#dfba73] uppercase tracking-[0.25em]">
-              EXPERIENCE THE LACI STANDARD
+              EXPERIENCE THE DELANEY STANDARD
             </span>
             <h3 className="font-serif text-2xl sm:text-3xl font-normal">
               Ready to reserve {service.title}?

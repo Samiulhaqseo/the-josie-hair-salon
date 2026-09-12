@@ -1,6 +1,6 @@
 {
-  "name": "Laci | CR Iowa Hairstylist",
-  "description": "Cedar Rapids' premier salon experience offering cut, color, balayage, and styling.",
+  "name": "Delaney Hair Stylist",
+  "description": "Cedar Rapids, Iowa's premier salon experience offering cut, color, balayage, and styling.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"

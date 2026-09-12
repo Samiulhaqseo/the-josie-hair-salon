@@ -1,7 +1,7 @@
 import { Stylist, ServiceItem, Testimonial, BlogPost, FaqItem, InstagramReel } from './types';
 
 export const SALON_INFO = {
-  name: 'Laci | CR Iowa Hairstylist',
+  name: 'Delaney Hair Stylist',
   phone: '+00 123 40000',
   phoneFormatted: '+00 123 40000',
   phoneRaw: 'tel:+0012340000',
@@ -10,11 +10,11 @@ export const SALON_INFO = {
     street: '',
     suite: '',
     city: 'Cedar Rapids',
-    state: 'IA',
+    state: 'Iowa',
     zip: '52401',
-    cityStateZip: 'Cedar Rapids, IA 52401',
-    full: 'Cedar Rapids, IA 52401',
-    mapsUrl: 'https://maps.google.com/?q=Cedar+Rapids+IA+52401',
+    cityStateZip: 'Cedar Rapids, Iowa 52401',
+    full: 'Cedar Rapids, Iowa 52401',
+    mapsUrl: 'https://maps.google.com/?q=Cedar+Rapids+Iowa+52401',
   },
   hours: [
     { days: 'Monday', time: 'Closed' },
@@ -29,13 +29,13 @@ export const SALON_INFO = {
 
 export const STYLISTS_LIST: Stylist[] = [
   {
-    id: 'laci',
-    name: 'Laci',
+    id: 'delaney',
+    name: 'Delaney',
     role: 'Owner / Master Stylist',
-    bio: "Laci is the visionary owner and lead master artist of Laci | CR Iowa Hairstylist in Cedar Rapids. Renowned for her tailored balayage artistry, color correction, and precision styling, she delivers a boutique salon experience that radiates warmth, craft, and creative energy.",
+    bio: "Delaney is the visionary owner and lead master artist of Delaney Hair Stylist in Cedar Rapids, Iowa. Renowned for her tailored balayage artistry, color correction, and precision styling, she delivers a boutique salon experience that radiates warmth, craft, and creative energy.",
     specialties: ['Balayage', 'Color Correction', 'Precision Cutting', 'Blonde Artistry'],
     instagram: 'https://www.facebook.com/',
-    image: 'https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/763831721_3804590603025302_9090068041945421282_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFKyH9Lv7_HemWvJVMp8Bk8pho1GvK2xa-mGjUa8rbFrxhuPdRlPGQZ_GfSrXmfBEVIkYaPnv-Y1Nwqs_O421qX&_nc_ohc=hUmNf2mZoZMQ7kNvwE0Kr3h&_nc_oc=Adrr2hYDOx92ONpkYPBrblrFTlGrWphFeqos09lpCrNHsTo4GCLaMdGF9IrCHUMCnew&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=y4FYOM_NpWevkT0EUq1xKA&_nc_ss=792a8&oh=00_AQIdlgFPEmVgCPp8vNYIMCcHYP5xXiSB4rLRA3u2WswqEA&oe=6AAAD7D0',
+    image: 'https://scontent-iad6-1.xx.fbcdn.net/v/t1.6435-9/89800700_4157372517622376_5838265267267829760_n.jpg?stp=dst-jpg_tt6&cstp=mx960x960&ctp=s960x960&_nc_cat=107&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEBxlj8d30PXqbu5cvkAmpUBKCganJUExkEoKBqclQTGUmXHPNevzXNg_hu3II03IsM4OG9i9usQOiBnFTra2Ng&_nc_ohc=iTf3iqMtqQ0Q7kNvwENe_W4&_nc_oc=Adpd5Qhelgm863TNGp5LlOQfv5l6tO1QNQEfiDy6JOH5igV8Xn2Dw2XR1hIJ-WVGlHE&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=--r_9MJPM32bkdTrflKlcA&_nc_ss=792a8&oh=00_AQIVaknefQMlOoPWMGWuNcMy9np05ecNQeohbkKiv2dUSA&oe=6ACC5B29',
   },
   {
     id: 'stephanie-arias',
@@ -51,7 +51,7 @@ export const STYLISTS_LIST: Stylist[] = [
     role: 'Senior Stylist/Wella Educator',
     bio: "As an accomplished Senior Stylist and certified Wella Educator, Kenny is a master of corrective color, editorial styling, and precision technique. He mentors emerging stylists while delivering runway-caliber transformations.",
     specialties: ['Master Colorist', 'Editorial Styling', 'Wella Education', 'Corrective Color'],
-    image: 'https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/706318041_3722721307878899_5657463308930864186_n.jpg?stp=dst-jpg_tt6&cstp=mx960x958&ctp=s960x958&_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFbv2glmfN3GY0Lhf3n-AccZxi0GrYsxPxnGLQatizE_LIOsjUQ4IfgqVGaVRTGmeH-k5cx2V4MuY1TkMYDK1RV&_nc_ohc=U6MO4WLQy5cQ7kNvwFeOjeI&_nc_oc=AdqcKYbomK4MI38Onu5vJ0RPz35kX8AFY4qRTCp51eCV_TgIdj1CrYhoCcqi9bNydD8&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=WF3NqeMZwAQXOAFt0BIoeQ&_nc_ss=792a8&oh=00_AQJxqx-kbQ8G5b3z2K3e2iyO-murCSJbgnEsyjvEUkKp6A&oe=6AAABC73',
+    image: 'https://scontent-iad3-1.xx.fbcdn.net/v/t39.30808-6/506283813_30910833668516231_4525483596544176990_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEL-sXsJEUJgREY54XH_KqoIu1FA5Q2Lxwi7UUDlDYvHEgJsPbZ0b9h6yn-94hp7OiW-pAi05d7Bs4oxdp0pzdr&_nc_ohc=YncjDLEAAWYQ7kNvwERAC-1&_nc_oc=AdrNGIpjL2ENeXgWygnLzPFp5CGQe2mNCwqAeyGsdoE7B5WMqnXYlA6r7lakYN15rpQ&_nc_zt=23&_nc_ht=scontent-iad3-1.xx&_nc_gid=l4P7xCVXvRR7WGV_wv1g5w&_nc_ss=792a8&oh=00_AQIMKrsQAZZERnis-z8gWQ25WNRm1HDSsjGrhytCNYYCYA&oe=6AAAEE6A',
   },
 ];
 
@@ -60,27 +60,27 @@ export const STYLISTS = STYLISTS_LIST;
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: '1',
-    quote: 'Way more than a haircut. Going to Laci | CR Iowa Hairstylist feels like going to a luxury boutique spa! I left looking and feeling marvelous!',
+    quote: 'Way more than a haircut. Going to Delaney Hair Stylist feels like going to a luxury boutique spa! I left looking and feeling marvelous!',
     author: 'Tanya B',
-    location: 'Cedar Rapids, IA',
+    location: 'Cedar Rapids, Iowa',
   },
   {
     id: '2',
-    quote: 'Laci is a true color artist. My balayage looks effortlessly luminous and natural, lasting months with zero harsh lines. The vibe is sophisticated and welcoming.',
+    quote: 'Delaney is a true color artist. My balayage looks effortlessly luminous and natural, lasting months with zero harsh lines. The vibe is sophisticated and welcoming.',
     author: 'Michelle R',
-    location: 'Marion, IA',
+    location: 'Marion, Iowa',
   },
   {
     id: '3',
-    quote: "Cedar Rapids' premier salon experience. The attention to detail from consultation to final blowout is unparalleled. Truly bespoke craft.",
+    quote: "Cedar Rapids, Iowa's premier salon experience. The attention to detail from consultation to final blowout is unparalleled. Truly bespoke craft.",
     author: 'Caroline S',
-    location: 'Iowa City, IA',
+    location: 'Iowa City, Iowa',
   },
   {
     id: '4',
     quote: 'I have never felt so pampered. The team listened carefully to what I envisioned and executed it beyond my expectations. I will never go anywhere else!',
     author: 'Amanda L',
-    location: 'Cedar Rapids, IA',
+    location: 'Cedar Rapids, Iowa',
   },
 ];
 
@@ -154,7 +154,7 @@ export const SERVICES_LIST: ServiceItem[] = [
 export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'best-products-coloured-hair',
-    title: 'Best Hair Products for Coloured Hair: What Laci Recommends',
+    title: 'Best Hair Products for Coloured Hair: What Delaney Recommends',
     excerpt: 'The best hair products for coloured hair protect pigment, restore moisture and maintain luminous dimension between salon visits...',
     image: 'https://images.unsplash.com/photo-1580618672591-eb180b1a973f?auto=format&fit=crop&w=800&q=85',
     imageAlt: 'Blonde woman with gorgeous healthy coloured blowout smiling outdoors',
@@ -170,7 +170,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     id: 'balayage-on-curly-hair',
     title: 'Balayage on Curly Hair: Is It Suitable for You?',
-    excerpt: 'Yes, balayage suits curly hair beautifully. Laci | CR Iowa Hairstylist explains how balayage enhances natural curls and dimensional wave patterns...',
+    excerpt: 'Yes, balayage suits curly hair beautifully. Delaney Hair Stylist explains how balayage enhances natural curls and dimensional wave patterns...',
     image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=85',
     imageAlt: 'Young woman with sun-kissed naturally curly textured hair in casual white tee',
     date: 'February 2026',
@@ -179,7 +179,7 @@ export const BLOG_POSTS: BlogPost[] = [
       'A common misconception is that balayage only works on straight or blow-dried hair. In reality, hand-painted balayage is arguably the most flattering colour technique for curls and textured coils.',
       'Freehand Precision: Because curls fall in organic ribbons rather than uniform sheets, traditional foil lines can look disjointed. With balayage, your stylist paints each curl cluster according to its natural bounce and contour.',
       'Zero Harsh Regrowth: The seamless graduation of pigment means you enjoy a gentle, low-maintenance grow-out with no stark demarcation lines at your roots.',
-      'Hydration First: Bleach naturally dehydrates curly patterns. At Laci | CR Iowa Hairstylist, we incorporate bond multipliers into our lighteners and follow every balayage with an acid-balanced gloss to seal hydration.',
+      'Hydration First: Bleach naturally dehydrates curly patterns. At Delaney Hair Stylist, we incorporate bond multipliers into our lighteners and follow every balayage with an acid-balanced gloss to seal hydration.',
     ],
   },
   {
@@ -204,7 +204,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: 'Colour & Balayage',
     question: 'How do I know whether balayage, traditional foil highlights, or a gloss is right for me?',
     answer:
-      "Every appointment at Laci | CR Iowa Hairstylist begins with a personalized, one-on-one consultation. We evaluate your hair texture, chemical history, and daily maintenance goals. Balayage offers an organic, seamless, sun-kissed gradient that grows out softly with zero harsh demarcation. Foil highlights deliver brighter dimension from roots to ends, and a conditioning gloss revives tone, enhances richness, and seals in mirror-like shine.",
+      "Every appointment at Delaney Hair Stylist begins with a personalized, one-on-one consultation. We evaluate your hair texture, chemical history, and daily maintenance goals. Balayage offers an organic, seamless, sun-kissed gradient that grows out softly with zero harsh demarcation. Foil highlights deliver brighter dimension from roots to ends, and a conditioning gloss revives tone, enhances richness, and seals in mirror-like shine.",
   },
   {
     id: 'faq-2',
@@ -264,7 +264,7 @@ export const INSTAGRAM_REELS: InstagramReel[] = [
     id: 'reel-2',
     thumbnail: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=85',
     overlayText: 'THE RESULTS',
-    caption: 'That smile when the gloss hits just right 🤍 Dimensional lived-in blonde by Laci.',
+    caption: 'That smile when the gloss hits just right 🤍 Dimensional lived-in blonde by Delaney.',
     views: '89.4K',
     likes: '7.1K',
     platform: 'both',

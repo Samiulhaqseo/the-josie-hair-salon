@@ -21,28 +21,28 @@ export const OurStory: React.FC = () => {
               id="our-story-body"
               className="text-[#404040] text-sm sm:text-[15px] md:text-base leading-relaxed sm:leading-loose font-light"
             >
-              Laci | CR Iowa Hairstylist was founded by salon owner and master stylist Laci,
-              whose dream is to provide a premier boutique salon experience to her Cedar Rapids
+              Delaney Hair Stylist was founded by salon owner and master stylist Delaney,
+              whose dream is to provide a premier boutique salon experience to her Cedar Rapids, Iowa
               clientele. Designed as a warm, welcoming sanctuary, the salon radiates the creative
               energy generated from a fantastic staff driven to deliver the best bespoke color,
-              balayage, and cuts to their clients. Laci | CR Iowa Hairstylist is the place for you to
+              balayage, and cuts to their clients. Delaney Hair Stylist is the place for you to
               become your most beautiful self.
             </p>
           </div>
 
-          {/* Right Column: Laci Stylist Photograph */}
+          {/* Right Column: Delaney Stylist Photograph */}
           <div className="relative order-1 md:order-2">
             <div
               id="our-story-image-container"
               className="relative overflow-hidden bg-[#e5dfd3] shadow-lg border border-[#ece8de] aspect-square max-w-md mx-auto"
             >
               <img
-                id="our-story-laci-image"
-                src="https://scontent-iad3-2.xx.fbcdn.net/v/t39.30808-6/763824691_3804590616358634_1176831187202434842_n.jpg?stp=dst-jpg_tt6&cstp=mx1366x2048&ctp=s1366x2048&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeFN7rI8OO0ehfn0HqDks9RNvwt5bNDgiT6_C3ls0OCJPjkTH1GTDb65MeMAjCM1yBmeX96KMK1yQfL8QmfaU3sz&_nc_ohc=DOyFEaWdexsQ7kNvwF0Osg3&_nc_oc=AdqkuPnYSheZ40ejRcUHPJ9drs4ybhIcRZBFsRacghF-kwOqrWm9ZSPD8-THFnnu1pk&_nc_zt=23&_nc_ht=scontent-iad3-2.xx&_nc_gid=SbcElpLlMzjDpIZVm9oI0w&_nc_ss=792a8&oh=00_AQKwOYyMVZLaetK76oA4RRmP9tNYXgFX8ON-cjEwDdwDSw&oe=6AAAD87C"
+                id="our-story-delaney-image"
+                src="https://scontent-iad6-1.xx.fbcdn.net/v/t39.30808-6/543391297_32216201701312748_5999289762247901511_n.jpg?stp=cp6_dst-jpg_tt6&cstp=mx2048x2048&ctp=s2048x2048&_nc_cat=109&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeHNFq64HZoCftDrlQFyWA65cBc7HBDDCfVwFzscEMMJ9azw-KKMkQXs8JNHwEY6FrIq70aDRiK3AAzag3VuIKAs&_nc_ohc=_mgHmeJRX5gQ7kNvwEucc61&_nc_oc=AdpQdknS1Q7ws5gDPPPgfUpxrmr3vSzDM_sk6VnwFiCr7OdrFBPcBzend7mZgsNwOmI&_nc_zt=23&_nc_ht=scontent-iad6-1.xx&_nc_gid=nzrinsH9OKxwTs8rMNP8Vw&_nc_ss=792a8&oh=00_AQKCHzU0qBZ5WE5_PUH4UcuqUMzNVRsaKiZzyKmES37jtQ&oe=6AAAD279"
                 onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src = '/laci-story.jpg';
+                  (e.currentTarget as HTMLImageElement).src = '/our-story-lady.jpg';
                 }}
-                alt="Laci, Owner of Laci | CR Iowa Hairstylist"
+                alt="Delaney, Owner of Delaney Hair Stylist"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-[center_18%] transition-transform duration-700 hover:scale-105"
               />

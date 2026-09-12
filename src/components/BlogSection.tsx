@@ -116,7 +116,7 @@ export const BlogSection: React.FC<BlogSectionProps> = ({ onOpenBooking }) => {
               </h2>
 
               <p className="text-xs text-[#777777] font-light">
-                Published by <strong className="text-black font-medium">Laci</strong>, Lead Stylist & Salon Owner
+                Published by <strong className="text-black font-medium">Delaney</strong>, Lead Stylist & Salon Owner
               </p>
             </div>
 
